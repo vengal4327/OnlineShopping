@@ -1,0 +1,64 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-bottom: 20px;
+    height: 250px;
+}
+
+.jumbotron {
+    text-align: center;
+    
+}
+
+.jumbotron .container{
+    padding-top: 30px;
+    margin-top: 100px;
+}
+
+.jumbotron{
+    background-image: url('../images/a.jpg');
+    background-color:black;
+    
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+}
+
+.jumbotron .container a{
+    margin-top: 25px;
+    /*margin-bottom: 50px;*/
+}
+
+.jumbotron h1, .jumbotron p{
+    text-align : center;
+    color:white;
+}
+
+.jumbotron p{
+    margin-top: 20px;
+    padding: 5px 150px;
+}
+
+.navbar-whole{
+    background-color: black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+a {
+    color: white;
+}
+
+a:hover,
+a:focus , .navbar-brand{
+    color: green;
+    background-position: 0px;
+}
+
+.navbar-brand{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+ li a{
+    font-size: 17px;
+     font-weight: bold;
+}
